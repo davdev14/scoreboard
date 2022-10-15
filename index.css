@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 575px;
+  height: 500px;
+  margin: auto;
+  background-color: #1B244A;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #EEEEEE;
+  margin-bottom: 21px;
+  margin-top: 68px;
+  cursor:pointer;
+}
+.scoreboard{
+  width: 155px;
+  height: 120px;
+  border:none;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@font-face {
+  font-family:font;
+  src: url(/CursedTimerUlil-Aznm.ttf);
+}
+#g-score , #h-score{
+  width: 117px;
+  height: 120px;
+  font-family:font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D;
+}
+.buttons{
+  width: 155px;
+  height: 45px;
+  margin-top: 26px;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #1B244A;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  cursor: pointer;
+  font-family: font;
+}
+
+#hfoulboard , #gfoulboard{
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  color: #F94F6D;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: font;
+  font-weight: 500;
+  font-size: 40px;
+}
+#gfoulboard{
+  margin-left: 80px;
+}
+#hfoul-txt , #gfoul-txt{
+  color: #EEEEEE;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+#gfoul-txt{
+  text-align: end;
+}
+#hfoul-btn , #gfoul-btn{
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 2px;
+  border: 1px solid #9aabd8;
+  background-color: #1B244A;
+  color: #9aabd8;
+}
+#gfoul-btn{
+  margin-left: 105px;
+  margin-top: 2px;
+}
+#hfoul-btn{
+  margin-left: 25px;
+  margin-top: 2px;
+}
+.mid-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 18px;
+}
+
+.period-txt{
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: -80px;
+}
+#period-board{
+  background-color: black;
+  width: 75px;
+  height: 75px;
+  color: #F94F6D;
+  font-family: font;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 18px;
+  border: none;
+  border-radius: 5px;
+}
+#next-period , #previous-period , #newgame{
+  border: 1px solid #9aabd8;
+  background-color: #1B244A;
+  color: #9aabd8;
+  font-family: font;
+}
