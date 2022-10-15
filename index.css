@@ -31,8 +31,8 @@ body {
   cursor:pointer;
 }
 .scoreboard{
-  width: 155px;
-  height: 120px;
+  width: 86%;
+  height: 20%;
   border:none;
   background-color: black;
   border-radius: 5px;
@@ -46,13 +46,15 @@ body {
   src: url(/CursedTimerUlil-Aznm.ttf);
 }
 #g-score , #h-score{
-  width: 117px;
+  width: 193px;
   height: 120px;
+  box-sizing: border-box;
+  padding-top: 6px;
   font-family:font;
   font-style: normal;
   font-weight: 400;
   font-size: 90px;
-  line-height: 127px;
+  line-height: 124px;
   text-align: center;
   color: #F94F6D;
 }
@@ -77,8 +79,8 @@ body {
 }
 
 #hfoulboard , #gfoulboard{
-  width: 75px;
-  height: 75px;
+  width: 40%;
+  height: 20%;
   background-color: black;
   color: #F94F6D;
   text-align: center;
@@ -87,9 +89,17 @@ body {
   font-family: font;
   font-weight: 500;
   font-size: 40px;
+  border-radius: 5px;
 }
 #gfoulboard{
   margin-left: 80px;
+  box-sizing: border-box;
+  padding: 26px 18px 18px 18px;
+}
+#hfoulboard{
+  
+  box-sizing: border-box;
+  padding: 26px 18px 18px 18px;
 }
 #hfoul-txt , #gfoul-txt{
   color: #EEEEEE;
@@ -98,6 +108,10 @@ body {
 }
 #gfoul-txt{
   text-align: end;
+  padding-right: 17px;
+}
+#hfoul-txt{
+  padding-left: 6px;
 }
 #hfoul-btn , #gfoul-btn{
   width: 25px;
@@ -109,11 +123,11 @@ body {
   color: #9aabd8;
 }
 #gfoul-btn{
-  margin-left: 105px;
+  margin-left: 99px;
   margin-top: 2px;
 }
 #hfoul-btn{
-  margin-left: 25px;
+  margin-left: 17px;
   margin-top: 2px;
 }
 .mid-container{
@@ -133,14 +147,15 @@ body {
 }
 #period-board{
   background-color: black;
-  width: 75px;
-  height: 75px;
+  width: 74%;
+  height: 15%;
   color: #F94F6D;
   font-family: font;
   box-sizing: border-box;
   font-size: 40px;
   font-weight: 500;
-  padding: 18px;
+  padding-top: 19px;
+  padding-left: 7px;
   border: none;
   border-radius: 5px;
 }
